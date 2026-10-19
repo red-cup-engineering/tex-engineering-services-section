@@ -6,8 +6,7 @@
   "description": "Read TeX source commands, environments, dependencies, labels and references.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
-    "directory": "services/tex-engineering-services-section"
+    "url": "git+https://github.com/red-cup-engineering/tex-engineering-services-section.git"
   },
   "exports": {
     ".": {
