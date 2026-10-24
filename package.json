@@ -20,14 +20,14 @@
     }
   },
   "dependencies": {
-    "@red-cup-engineering/json-schema-engineering-services-section": "0.5.0"
+    "@red-cup-engineering/json-schema-services-section": "0.5.0"
   },
   "scripts": {
     "test": "run-package-tests",
     "check": "check-package-syntax"
   },
   "devDependencies": {
-    "@red-cup-engineering/jsnode-package-engineering-services-section": "0.2.4"
+    "@red-cup-engineering/jsnode-package-services-section": "0.2.4"
   },
   "license": "MIT",
   "funding": {
