@@ -1,0 +1,10 @@
+import type { TexDependency, TexPlate } from "./schema.mjs";
+export type TexPlateFormat = TexPlate["format"];
+export type TexDependencyKind = TexDependency["kind"];
+export declare const DEPENDENCY_COMMANDS: Readonly<Record<string, TexDependencyKind>>;
+export declare const REFERENCE_COMMANDS: any;
+export declare function stripTexComment(line: string): string;
+export declare function matchAll(text: string, pattern: RegExp): string[];
+export declare function countMatches(text: string, pattern: RegExp): number;
+export declare function uniqueSorted(values: readonly string[]): readonly string[];
+export declare function escapeRegExp(value: string): string;
